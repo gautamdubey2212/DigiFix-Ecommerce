@@ -1,7 +1,7 @@
 # DigiFix - Full Stack PHP Ecommerce Website
 
 ## 🌐 Live Demo
-https://digifix.infinityfree.me
+https://digifix.infinityfree.me/DFI/
 
 ---
 
