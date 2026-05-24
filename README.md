@@ -1,91 +1,106 @@
 # DigiFix - Full Stack PHP Ecommerce Website
 
 ## 🌐 Live Demo
+
 https://digifix.infinityfree.me/DFI/
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-DigiFix is a dynamic full stack ecommerce website developed using PHP, MySQL, JavaScript, Bootstrap, HTML, and CSS.
+DigiFix is a modern full stack ecommerce website developed using PHP, MySQL, JavaScript, Bootstrap, HTML, and CSS.
 
-The project includes a modern UI, shopping cart system, secure checkout page, order management functionality, and responsive design. The website is fully deployed online and works across desktop and mobile devices.
+This project includes a professional user interface, shopping cart system, dynamic checkout page, secure order flow, and responsive design for desktop and mobile devices.
+
+The website is fully deployed online and demonstrates complete frontend and backend ecommerce functionality.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - Dynamic Product Display
 - Add To Cart System
-- Cart Quantity Management
-- Secure Checkout Page
-- Order Summary Calculation
+- Buy Now Functionality
+- Shopping Cart Management
+- Quantity Increase / Decrease
+- Remove Product From Cart
+- Dynamic Order Summary
 - GST & Discount Calculation
-- Order Storage Using MySQL Database
-- Professional UI Design
-- Responsive Layout
-- Live Hosted Website
-- Invoice Section
-- Payment Flow Integration
+- Secure Checkout Page
+- Responsive Professional UI
+- Mobile Friendly Design
+- MySQL Database Integration
+- Dynamic Order Storage
+- LocalStorage Cart System
+- Cashfree Payment Gateway Integration (In Progress)
+- Admin Dashboard
 
 ---
 
-## 🛠 Technologies Used
+# 🛠 Technologies Used
 
-### Frontend
+## Frontend
 - HTML5
 - CSS3
 - Bootstrap 5
 - JavaScript
 
-### Backend
+## Backend
 - PHP
 
-### Database
+## Database
 - MySQL
 
-### Hosting
+## Hosting
 - InfinityFree
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```bash
 DigiFix/
 │
 ├── Home.php
 ├── Product.php
+├── cart.html
 ├── checkout.php
 ├── order-success.php
 ├── invoice.php
 ├── DB.php
+├── cart.js
 ├── assets/
 ├── images/
 └── database.sql
-```
 
 ---
 
 ## ⚡ Key Functionalities
 
-### 🛒 Shopping Cart
-- Add products dynamically
-- Increase/decrease quantity
-- Remove products
-- LocalStorage cart management
+🛒 Shopping Cart System
+Add products dynamically
+Increase and decrease quantity
+Remove products from cart
+Dynamic cart calculation
+LocalStorage based cart management
 
-### 💳 Checkout System
-- Billing details form
-- Cart summary
-- GST calculation
-- Discount calculation
-- Order placement
+---------------------------
 
-### 🗄 Database Integration
-- Orders saved into MySQL database
-- Product order history maintained
-- Dynamic order item insertion
+💳 Checkout System
+Billing details form
+Dynamic order summary
+GST calculation
+Discount calculation
+Professional checkout design
+Cashfree payment integration
+
+-----------------------
+
+🗄 Database Integration
+Orders stored in MySQL database
+Dynamic order item insertion
+Customer billing information storage
+Product order history management
 
 ---
 
@@ -98,23 +113,37 @@ The website is fully responsive and optimized for:
 
 ---
 
-## 🔐 Future Improvements
+🔐 Future Improvements
+User Authentication System
+Admin Dashboard
+Payment Verification System
+PDF Invoice Generation
+Email Notifications
+Order Tracking System
+User Order History
+OTP Login System
+---
 
-- User Authentication
-- Admin Dashboard
-- Real Payment Gateway
-- PDF Invoice Generation
-- Order Tracking System
-- Email Notifications
+👨‍💻 Developer
+
+Developed by Gautam Dubey
+
+Skills Used In This Project
+Full Stack PHP Development
+Frontend UI Design
+Backend Development
+Ecommerce Website Development
+Responsive Web Design
+Database Management
 
 ---
 
-## 👨‍💻 Developer
-
-Developed by Ram Sevak
-
----
-
-## ⭐ Project Status
+⭐ Project Status
 
 ✅ Live & Running Successfully
+
+🚧 Payment Gateway Integration In Progress
+
+📄 License
+
+This project is developed for learning, portfolio, and professional showcase purpos
