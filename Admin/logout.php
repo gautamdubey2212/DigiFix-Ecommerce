@@ -1,0 +1,17 @@
+<?php
+
+session_start();
+
+// DESTROY ALL SESSION
+
+session_unset();
+
+session_destroy();
+
+// REDIRECT TO LOGIN PAGE
+
+header("Location: login.php");
+
+exit();
+
+?>
