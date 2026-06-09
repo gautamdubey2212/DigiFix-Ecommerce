@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-https://digifix.infinityfree.me/DFI/
+https://digfix.co
 
 ---
 
@@ -37,6 +37,7 @@ The project is fully deployed online and demonstrates both frontend and backend 
 * Manual Payment Screenshot Upload
 * Order ID Generation
 * Payment Verification Status Tracking
+* Multiple Currency
 
 ---
 
@@ -121,7 +122,7 @@ A custom manual payment verification system has been implemented.
 
 # 📂 Project Structure
 
-```bash
+
 DigiFix/
 │
 ├── Home.php
@@ -145,7 +146,7 @@ DigiFix/
 ├── assets/
 ├── images/
 └── database.sql
-```
+
 
 ---
 
@@ -213,7 +214,6 @@ Fully optimized for:
 * Customer Accounts
 * OTP Login System
 * Automated Email Notifications
-* PDF Invoice Download
 * Automatic Invoice Email Delivery
 * Payment Gateway Integration
 * Razorpay Integration
