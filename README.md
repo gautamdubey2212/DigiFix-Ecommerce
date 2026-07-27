@@ -1,266 +1,307 @@
 # DigiFix - Full Stack PHP Ecommerce Website
 
-## 🌐 Live Demo
-
-https://digfix.co
-
----
-
-# 📌 Project Overview
-
-DigiFix is a modern Full Stack Ecommerce Website developed using PHP, MySQL, JavaScript, Bootstrap, HTML, and CSS.
-
-The platform provides a complete ecommerce experience including product browsing, shopping cart management, secure checkout, order management, manual payment verification, invoice generation, and an admin dashboard.
-
-The project is fully deployed online and demonstrates both frontend and backend ecommerce development concepts.
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
 
 ---
 
-# 🚀 Features
+# 🌐 Live Website
 
-### Customer Features
-
-* Dynamic Product Display
-* Add To Cart System
-* Buy Now Functionality
-* Shopping Cart Management
-* Quantity Increase / Decrease
-* Remove Product From Cart
-* Dynamic Order Summary
-* GST Calculation
-* Discount Calculation
-* Secure Checkout Page
-* Responsive Professional UI
-* Mobile Friendly Design
-* Dynamic Invoice Generation
-* Order Success Page
-* Manual Payment Screenshot Upload
-* Order ID Generation
-* Payment Verification Status Tracking
-* Multiple Currency
+**Website:** https://digfix.co
 
 ---
 
-### Admin Features
+# 📖 About DigiFix
 
-* Admin Login System
-* Admin Dashboard
-* Total Products Counter
-* Total Orders Counter
-* Total Contact Messages Counter
-* Manage Products
-* View Customer Orders
-* View Payment Screenshots
-* Manual Payment Verification System
-* Update Payment Status
+DigiFix is a modern **Full Stack Ecommerce Website** developed using **PHP, MySQL, JavaScript, Bootstrap 5, HTML5, and CSS3**.
 
-  * Pending Verification
-  * Paid
-  * Rejected
-* Customer Billing Information Management
-* Order History Management
+The platform provides a seamless online shopping experience with secure checkout, Razorpay payment integration, invoice generation, shopping cart management, and a fully functional admin dashboard.
+
+This project demonstrates complete frontend and backend ecommerce development, database management, payment gateway integration, and responsive web design.
 
 ---
 
-# 💳 Payment Verification System
+# 🚀 Key Features
 
-A custom manual payment verification system has been implemented.
+## Customer Features
 
-### Workflow
+- Dynamic Product Listing
+- Product Details Page
+- Add to Cart
+- Buy Now
+- Shopping Cart Management
+- Quantity Update
+- Remove Products from Cart
+- Dynamic Order Summary
+- GST Calculation
+- Discount Calculation
+- Secure Checkout
+- Razorpay Payment Gateway
+- Online Payment Processing
+- Order Success Page
+- Invoice Generation
+- Multiple Currency Support
+- Responsive UI
+- Mobile Friendly Design
 
-1. Customer places an order.
-2. Customer completes bank transfer.
-3. Customer uploads payment screenshot.
-4. Order is stored with status:
+---
 
-   * Pending Verification
-5. Admin reviews payment screenshot.
-6. Admin updates payment status:
+## Admin Features
 
-   * Paid
-   * Rejected
-7. Invoice can be generated after verification.
+- Secure Admin Login
+- Admin Dashboard
+- Add Products
+- Update Products
+- Delete Products
+- Product Management
+- Customer Order Management
+- Order History
+- Dashboard Analytics
+- Billing Information Management
+
+---
+
+# 💳 Razorpay Payment Gateway
+
+Integrated Razorpay Payment Gateway for secure online transactions.
+
+### Payment Workflow
+
+1. Customer adds products to the cart.
+2. Customer proceeds to checkout.
+3. Billing details are submitted.
+4. Razorpay payment window opens.
+5. Customer completes payment securely.
+6. Order is stored in the MySQL database.
+7. Customer is redirected to the Order Success page.
+8. Invoice is generated automatically.
 
 ---
 
 # 🧾 Invoice System
 
-* Dynamic Invoice Generation
-* Customer Billing Details
-* Order Information
-* Product Details
-* Quantity & Pricing
-* GST Calculation
-* Grand Total Calculation
-* Payment Status Display
-* Printable Invoice Layout
+- Dynamic Invoice Generation
+- Customer Billing Details
+- Order Summary
+- Product Details
+- Quantity & Price
+- GST Calculation
+- Discount Calculation
+- Grand Total
+- Printable Invoice
+- Payment Status
 
 ---
 
-# 🛠 Technologies Used
+# 🛒 Shopping Cart
+
+- Add Products
+- Remove Products
+- Quantity Management
+- Dynamic Price Calculation
+- GST Calculation
+- Discount Calculation
+- LocalStorage Cart
+
+---
+
+# 📊 Admin Dashboard
+
+- Product Management
+- Customer Orders
+- Dashboard Statistics
+- Order Details
+- Billing Details
+- Sales Management
+
+---
+
+# 🗄 Database Features
+
+- Product Storage
+- Customer Information
+- Order Management
+- Order Items
+- Contact Messages
+- Invoice Records
+
+---
+
+# 🛠 Tech Stack
 
 ## Frontend
 
-* HTML5
-* CSS3
-* Bootstrap 5
-* JavaScript
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
 
 ## Backend
 
-* PHP
+- PHP
 
 ## Database
 
-* MySQL
+- MySQL
+
+## Payment Gateway
+
+- Razorpay
 
 ## Hosting
 
-* InfinityFree
+- GoDaddy Web Hosting
+
+## Version Control
+
+- Git
+- GitHub
 
 ---
 
-# 📂 Project Structure
+# 📁 Project Structure
 
-
+```
 DigiFix/
 │
 ├── Home.php
 ├── Product.php
-├── cart.html
+├── About.php
+├── Contact.php
 ├── checkout.php
-├── order-success.php
 ├── invoice.php
+├── order-success.php
 ├── DB.php
+├── cart.html
 ├── cart.js
+│
 ├── Admin/
+│   ├── login.php
 │   ├── dashboard.php
 │   ├── orders.php
 │   ├── add-product.php
 │   ├── manage-products.php
-│   └── login.php
-│
-├── uploads/
-│   └── payment-screenshots
+│   └── products.php
 │
 ├── assets/
+├── css/
+├── js/
 ├── images/
+├── uploads/
 └── database.sql
-
-
----
-
-# ⚡ Key Functionalities
-
-## 🛒 Shopping Cart System
-
-* Dynamic Product Management
-* Add To Cart
-* Remove Products
-* Quantity Management
-* LocalStorage Cart System
-* Dynamic Cart Calculation
+```
 
 ---
 
-## 💳 Checkout System
+# 📱 Responsive Design
 
-* Billing Details Form
-* Dynamic Order Summary
-* GST Calculation
-* Discount Calculation
-* Bank Transfer Payment Flow
-* Payment Screenshot Upload
-* Unique Order ID Generation
-* Order Storage In Database
+Optimized for
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
 
 ---
 
-## 🗄 Database Integration
+# 🔒 Security
 
-* Customer Information Storage
-* Order Storage
-* Order Items Storage
-* Product Management
-* Payment Status Management
-* Contact Message Storage
-
----
-
-## 📊 Admin Dashboard
-
-* Product Analytics
-* Order Analytics
-* Contact Analytics
-* Order Verification Management
-* Payment Screenshot Review
-* Status Update System
+- Session-based Admin Authentication
+- Secure Database Connectivity
+- Server-side Form Validation
+- Input Validation
+- Error Handling
+- Razorpay Secure Payment Processing
 
 ---
 
-## 📱 Responsive Design
+# 🚀 Upcoming Features
 
-Fully optimized for:
-
-* Desktop
-* Tablet
-* Mobile Devices
-
----
-
-# 🔐 Future Improvements
-
-* User Authentication System
-* Customer Accounts
-* OTP Login System
-* Automated Email Notifications
-* Automatic Invoice Email Delivery
-* Payment Gateway Integration
-* Razorpay Integration
-* Cashfree Integration
-* Order Tracking System
-* Customer Order History
-* Coupon System
-* Wishlist System
+- User Registration & Login
+- Customer Dashboard
+- Order Tracking
+- Wishlist
+- Product Reviews
+- Coupon System
+- Email Notifications
+- Inventory Management
+- Sales Reports
+- Admin Analytics
 
 ---
 
 # 👨‍💻 Developer
 
-Developed by Gautam Dubey
+## Gautam Dubey
+
+**Full Stack PHP Developer**
 
 ### Skills Demonstrated
 
-* Full Stack PHP Development
-* Ecommerce Website Development
-* Responsive UI Design
-* Backend Development
-* MySQL Database Design
-* Order Management Systems
-* Payment Verification Workflow
-* Invoice Generation System
-* Admin Panel Development
+- PHP
+- MySQL
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- Ecommerce Development
+- Razorpay Integration
+- Shopping Cart Development
+- Admin Dashboard
+- Invoice Generation
+- Database Design
+- Responsive Web Design
+- Git & GitHub
 
 ---
 
 # ⭐ Project Status
 
-✅ Live & Running Successfully
+✅ Live Website
 
-✅ Shopping Cart Implemented
+✅ Responsive Design
 
-✅ Checkout System Implemented
+✅ Shopping Cart
 
-✅ Invoice Generation Implemented
+✅ Razorpay Payment Gateway
 
-✅ Admin Dashboard Implemented
+✅ Secure Checkout
 
-✅ Manual Payment Verification Implemented
+✅ Admin Dashboard
 
-✅ Payment Screenshot Upload Implemented
+✅ Product Management
 
-🚧 Automated Email Notifications In Progress
+✅ Order Management
 
-🚧 Payment Gateway Integration In Progress
+✅ Invoice Generation
 
-🚧 Customer Account System In Progress
+✅ Database Integration
+
+---
+
+## 📷 Screenshots
+
+- Home Page
+- Product Page
+- Shopping Cart
+- Checkout
+- Razorpay Payment
+- Invoice
+- Admin Dashboard
+
+(Add screenshots here)
+
+---
+
+# 📞 Contact
+
+**Developer:** Gautam Dubey
+
+🌐 Website: https://digfix.co
+
+---
+
+## ⭐ If you found this project helpful, please consider giving it a Star on GitHub!
